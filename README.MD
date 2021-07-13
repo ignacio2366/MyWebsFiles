@@ -1,6 +1,7 @@
-# SAD
-hehehehe
+# About to my Portfolio
+         
+        the website is not complete
 
-## Tanga
+## monitor required
 
-sad
+ must be FHD
