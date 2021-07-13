@@ -21,7 +21,7 @@
 
   .container {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     display: grid;
     user-select: none;
     min-height: 720px;
@@ -39,7 +39,7 @@
 
   .nav {
     height: 1cm;
-    width: 77%;
+    width: 100%;
     background-color: #84a6f7;
     position: fixed;
     z-index: 2;
@@ -389,8 +389,8 @@
   .Web-Development {
     position: absolute;
 
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 1px solid #fff;
@@ -399,8 +399,8 @@
   .Web-Designer {
     position: absolute;
 
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 1px solid #fff;
@@ -408,8 +408,8 @@
   .System-Development {
     position: absolute;
 
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 1px solid #fff;
@@ -420,10 +420,10 @@
     position: absolute;
     align-items: center;
     top: 35vh;
-    left:10vh;
+    left:15vh;
     height: 150px;
     width: 120px;
-    perspective: 3100px;
+    perspective: 200px;
     transform: translateY(-150px);
 
   }
