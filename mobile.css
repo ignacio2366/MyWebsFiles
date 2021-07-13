@@ -1,0 +1,467 @@
+@media only screen and (max-width: 640px) {
+  * {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  @font-face {
+    font-family: inkfree;
+    src: url(fonts/ink-free-normal.ttf);
+  }
+  @font-face {
+    font-family: Segoe;
+    src: url(fonts/segoesc.ttf);
+  }
+
+  @font-face {
+    font-family: Open-San-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+  }
+
+  .container {
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    user-select: none;
+    min-height: 720px;
+
+    position: relative;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "slide1"
+      "slide2"
+      "slide3";
+  }
+  /* Navigation Area */
+
+  .nav {
+    height: 1cm;
+    width: 77%;
+    background-color: #84a6f7;
+    position: fixed;
+    z-index: 2;
+  }
+  .nav h1 {
+    float: left;
+    position: relative;
+    margin-top: 1vh;
+    left: 20vh;
+    bottom: 0.2vh;
+    font-size: 2.5vh;
+    font-weight: 100;
+    color: #f6f6f6;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .nav span {
+    position: absolute;
+    font-weight: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 1vh;
+    margin-left: 20vh;
+  }
+
+  .nav li {
+    visibility: hidden;
+    position: relative;
+    top: 0vh;
+    right: 5vh;
+    display: inline;
+    list-style: none;
+    float: right;
+    padding-top: 0.5vh;
+    margin-left: 1vh;
+  }
+  .nav li a {
+    font-family: Open-San-Light;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  /*SLIDER ! */
+
+  .slide1 {
+    grid-area: slide1;
+    height: 100vh;
+    width: 100%;
+
+    background-color: #f6f6f6;
+    align-items: center;
+
+    border-bottom: 1px solid #84a6f7;
+  }
+
+  .greeting h1 {
+    position: absolute;
+    top: 10%;
+    left: 5vh;
+
+    font-size: 5vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+  }
+  .greeting h2 {
+    position: absolute;
+    top: 15%;
+    left: 15vh;
+
+    font-size: 3vh;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #707070;
+  }
+
+  .person1 {
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    height: 35vh;
+    width: 35vh;
+
+    background-color: #bfd1fd;
+    border-radius: 30px;
+    border: 2px solid #707070;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slide1 .person1 img {
+    height: 35vh;
+    width: 35vh;
+  }
+
+  .slide1 .qoute1 {
+    position: absolute;
+    left: 10vh;
+    top: 61%;
+
+    font-family: inkfree;
+    font-size: 3vh;
+  }
+  .slide1 .qoute2 {
+    position: absolute;
+    left: 12vh;
+    top: 64%;
+
+    font-family: inkfree;
+    font-size: 3vh;
+  }
+
+  .slide1 hr {
+    position: absolute;
+    top: 69%;
+    left: 10vh;
+    width: 30vh;
+    height: 2px;
+    border-radius: 30px;
+    background-color: #707070;
+  }
+  .slide1 .vertical1 {
+    position: absolute;
+    height: 2vh;
+    width: 25vh;
+    top: 53%;
+    left: 10%;
+    border: 1px solid #707070;
+    background-color: #bfd1fd;
+    border-radius: 20px;
+  }
+  .slide1 .vertical2 {
+    position: absolute;
+    height: 2vh;
+    width: 25vh;
+    top: 57%;
+    right: 10vh;
+    border: 1px solid #707070;
+    background-color: #bfd1fd;
+    border-radius: 20px;
+  }
+  .slide1 .link {
+    position: absolute;
+    left: 10vh;
+    bottom: 20vh;
+    height: 50px;
+    width: 250px;
+  }
+  .slide1 .link li {
+    display: inline;
+    margin: 10px;
+  }
+
+  .slide1 .link img {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #707070;
+    border-radius: 30px;
+  }
+  /* Slideer 2*/
+  .slide2 {
+    position: relative;
+    grid-area: slide2;
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #84a6f7;
+  }
+
+  .slide2 .Education-Attain {
+    position: absolute;
+    height: 4vh;
+    width: 35vh;
+    top: 2vh;
+    left: 10vh;
+
+    background-color: #84a6f7;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    padding-top: 10px;
+  }
+
+  .Education-Attain h2 {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    font-size: 2vh;
+  }
+
+  .Education-Attain img {
+    position: absolute;
+    width: 4.5vh;
+    height: 4.5vh;
+    right: 6vh;
+    top: 0.5vh;
+  }
+
+  .Aboutme {
+    position: absolute;
+
+    left: 3vh;
+    top: 10vh;
+  }
+
+  .Aboutme h1 {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5vh;
+    color: #707070;
+  }
+
+  .Aboutme p {
+    margin-top: -25px;
+    font-family: Segoe;
+    font-size: 1.5vh;
+    text-align: center;
+  }
+
+  .College-Attain {
+    position: absolute;
+    top: 27vh;
+    left: 3vh;
+    height: 35vh;
+    width: 48vh;
+
+    background-color: #84a6f7;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .College-Attain h1 {
+    font-size: 2.5vh;
+    margin: 1vh 0 0 5vh;
+  }
+  .College-Attain h2 {
+    font-size: 2vh;
+    margin: 1vh 0 0 2vh;
+    font-weight: 500;
+  }
+  .College-Attain h3 {
+    font-size: 1.5vh;
+    margin: 1vh 0 0 8vh;
+    font-weight: 500;
+  }
+  .College-Attain p {
+    font-size: 1.5vh;
+    margin: 0.2vh 0 0 2vh;
+    font-weight: 100;
+  }
+  .College-Attain span {
+    font-size: 1.2vh;
+  }
+
+  .SHS-Attain {
+    position: absolute;
+    top: 60vh;
+    left: 3vh;
+    height: 30vh;
+    width: 48vh;
+    z-index: 1;
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #84a6f7;
+    border-radius: 40px;
+    border: 2px solid #fff;
+  }
+  .SHS-Attain h1 {
+    font-size: 2vh;
+    margin: 2vh 0 0 2vh;
+  }
+
+  .SHS-Attain h2 {
+    font-size: 1.5vh;
+    margin: 1vh 0 0 2vh;
+    font-weight: 500;
+  }
+
+  .SHS-Attain h3 {
+    font-size: 1.5vh;
+    margin: 1vh 0 0 2.5vh;
+    font-weight: 500;
+  }
+
+  .SHS-Attain span {
+    font-size: 1.5vh;
+  }
+
+  .SHS-Attain p {
+    font-size: 1.7vh;
+    margin: 0vh 0 0 2vh;
+    font-weight: 100;
+  }
+
+  .slide3 {
+    grid-area: slide3;
+    height: 100vh;
+    width: 100%;
+    background-color: #f6f6f6;
+    position: relative;
+  }
+
+  .slide3 .Skill-Exp {
+    position: absolute;
+    height: 4vh;
+    width: 35vh;
+    top: 2vh;
+    left: 10vh;
+
+    background-color: #84a6f7;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    padding-top: 10px;
+  }
+
+  .Education-Attain h2 {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    font-size: 2vh;
+  }
+
+  .Skill-Exp h2 {
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-left: 30px;
+    position: relative;
+    font-size: 2.5vh;
+  }
+
+  .Skill-Exp img {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    right: 5vh;
+    top: 0vh;
+  }
+
+  .Web-Development {
+    position: absolute;
+
+    height: 25vh;
+    width: 25vh;
+    background-color: #84a6f7;
+    border-radius: 30px;
+    border: 1px solid #fff;
+  }
+
+  .Web-Designer {
+    position: absolute;
+
+    height: 25vh;
+    width: 25vh;
+    background-color: #84a6f7;
+    border-radius: 30px;
+    border: 1px solid #fff;
+  }
+  .System-Development {
+    position: absolute;
+
+    height: 25vh;
+    width: 25vh;
+    background-color: #84a6f7;
+    border-radius: 30px;
+    border: 1px solid #fff;
+
+  }
+
+  .carousel {
+    position: absolute;
+    align-items: center;
+    top: 35vh;
+    left:10vh;
+    height: 150px;
+    width: 120px;
+    perspective: 3100px;
+    transform: translateY(-150px);
+
+  }
+
+  .carousel h1 {
+    font-size: 3.5vh;
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .carousel img {
+    width: 10vh;
+    height: 10vh;
+    margin-left: 28%;
+  }
+  .carousel-item {
+    width: 200px;
+    top: -10vh;
+    left: 10vh;
+    position: relative;
+  }
+  .Cover-Letter {
+    position: absolute;
+    bottom: 5vh;
+    left: 3vh;
+    height: 45vh;
+    width: 90%;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    background-color: #84a6f7;
+  }
+
+  .Cover-Letter p {
+    font-family: Open-San-Light;
+    font-size: 2.5vh;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+  }
+}
