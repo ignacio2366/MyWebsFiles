@@ -25,7 +25,6 @@
     display: grid;
     user-select: none;
     min-height: 720px;
-    border: 1px solid green;
     position: relative;
 
     grid-template-columns: 1fr;
@@ -88,13 +87,12 @@
 
   .slide1 {
     grid-area: slide1;
-    height: 100vh;
+    height: 785px;
     width: 100%;
 
     background-color: #f6f6f6;
     align-items: center;
 
-    border-bottom: 1px solid #84a6f7;
   }
 
   .greeting h1 {
@@ -118,10 +116,10 @@
 
   .person1 {
     position: absolute;
-    left: 40px;
+    left: 55px;
     top: 150px;
-    height: 160px;
-    width: 150px; 
+    height: 270px;
+    width: 270px;
 
     background-color: #bfd1fd;
     border-radius: 30px;
@@ -132,14 +130,14 @@
   }
 
   .slide1 .person1 img {
-    height: 150px;
-    width: 150px;
+    height: 270px;
+    width: 270px;
   }
 
   .slide1 .qoute1 {
     position: absolute;
-    left: 25px;
-    top: 8.3cm;
+    left: 55px;
+    top: 11cm;
 
     font-family: inkfree;
     font-size: 15px;
@@ -163,20 +161,21 @@
   }
   .slide1 .vertical1 {
     position: absolute;
-    height: 10px;
-    width: 110px;
-    top: 7.2cm;
-    left: 18px;
+    height: 15px;
+    width: 190px;
+    left: 40px;
+    top: 12cm;
     border: 0.5px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
   }
   .slide1 .vertical2 {
     position: absolute;
-    height: 10px;
-    width: 110px;
-    top: 7.8cm;
-    left: 75px;
+    width: 190px;
+    height: 15px;
+
+    left: 130px;
+    top: 12.9cm;
     border: 0.1px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
@@ -203,7 +202,7 @@
   .slide2 {
     position: relative;
     grid-area: slide2;
-    height: 100vh;
+    height: 785px;
     width: 100%;
     background-color: #f6f6f6;
     border-bottom: 1px solid #84a6f7;
@@ -339,7 +338,7 @@
 
   .slide3 {
     grid-area: slide3;
-    height: 100vh;
+    height: 785px;
     width: 100%;
     background-color: #f6f6f6;
     position: relative;
