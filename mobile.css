@@ -100,8 +100,8 @@
 
   .greeting h1 {
     position: absolute;
-    top: 40px;
-    left: 20px;
+    top: 75px;
+    left: 35px;
 
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -109,10 +109,10 @@
   }
   .greeting h2 {
     position: absolute;
-    top: 75px;
-    left: 48px;
+    top: 115px;
+    left: 100px;
 
-    font-size: 29px;
+    font-size: 20px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
   }
@@ -120,7 +120,7 @@
   .person1 {
     position: absolute;
     left: 40px;
-    top: 95px;
+    top: 150px;
     height: 160px;
     width: 150px; 
 
