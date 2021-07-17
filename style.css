@@ -24,7 +24,8 @@
   height: 100vh;
   display: grid;
   user-select: none;
-  min-height: 720px;
+
+  margin: 0 auto;
 
 
   position: relative;
@@ -90,7 +91,7 @@
   grid-area: slide1;
   height: 100vh;
   width: 100%;
-
+  position: relative;
   background-color: #f6f6f6;
   align-items: center;
 
