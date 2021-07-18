@@ -3,8 +3,10 @@
     margin: 0;
     padding: 0;
     align-items: center;
+  
+  
   }
-
+  
   @font-face {
     font-family: inkfree;
     src: url(fonts/ink-free-normal.ttf);
@@ -13,61 +15,61 @@
     font-family: Segoe;
     src: url(fonts/segoesc.ttf);
   }
-
+  
   @font-face {
     font-family: Open-San-Light;
-    src: url(./fonts/OpenSans-Light.ttf);
+    src: url(./fonts/OpenSans-Light.ttf)
   }
-
+  
   .container {
     width: 100%;
     height: 100%;
     display: grid;
     user-select: none;
+    min-width: 412px;
     max-height: 1080px;
-    margin: 0 auto;
-
+    margin: auto;
+    box-sizing: border-box;
+  
+  
     position: relative;
-
+  
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "nav"
       "slide1"
       "slide2"
       "slide3";
   }
   /* Navigation Area */
-
+  
   .nav {
-    grid-area: nav;
     height: 1cm;
     width: 100%;
     background-color: #84a6f7;
-    position: absolute;
+    position: fixed;
     z-index: 2;
   }
   .nav h1 {
     float: left;
-    position: absolute;
-    left: 40%;
-    bottom: 3px;
-    font-size: 15px;
+    position: relative;
+    left: 1vh;
+    bottom:0.2vh;
+    font-size: 2.5vh;
     font-weight: 100;
     color: #f6f6f6;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  .nav span {
+  .nav span{
     position: absolute;
     font-weight: 100;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 10px;
-    margin-left: 50px;
+    font-size: 12px;
     color: #fff;
-    left: 42%;
-    bottom: 5px;
+    margin-left: 15px;
+  
   }
-
+  
   .nav li {
     position: relative;
     top: 0vh;
@@ -76,8 +78,7 @@
     list-style: none;
     float: right;
     padding-top: 0.5vh;
-    margin-left: 1vh;
-    visibility: hidden;
+    margin-left:1vh;
   }
   .nav li a {
     font-family: Open-San-Light;
@@ -87,119 +88,120 @@
     color: #fff;
     letter-spacing: 1px;
   }
-
+  
   /*SLIDER ! */
-
+  
   .slide1 {
     grid-area: slide1;
-    height: 876px;
-    width: 100%;
+    height: 874px;
+    width: 412px;
     position: relative;
     background-color: #f6f6f6;
-    border-bottom: 1px solid red;
+    align-items: center;
+    border-bottom: 1px solid #84a6f7;
+  
   }
-
+  
   .greeting h1 {
     position: absolute;
-    top: 7%;
-    left: 10%;
-
+    top: 70px;
+    left: 40px;
+  
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
   }
   .greeting h2 {
     position: absolute;
-    top: 11%;
-    margin-top: 3px;
-    left: 25%;
+    top: 110px;
+    left: 110px;
+  
     font-size: 21px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
   }
-
+  
   .person1 {
     position: absolute;
-    left: 20%;
-    top: 16%;
-    height: 255px;
-    width: 255px;
-
+    right: 5%;
+    top: 50%;
+    height: 300px;
+    width: 300px;
+  
     background-color: #bfd1fd;
     border-radius: 30px;
-    border: 1px solid #707070;
+    border: 2px solid #707070;
     align-items: center;
     display: flex;
     justify-content: center;
   }
-
+  
   .slide1 .person1 img {
-    height: 255px;
-    width: 255px;
+    height: 55vh;
+    width: 55vh;
   }
-
+  
   .slide1 .qoute1 {
     position: absolute;
-    left: 19%;
-    top: 58%;
-
+    left: 25vh;
+    top: 50%;
+  
     font-family: inkfree;
-    font-size: 25px;
+    font-size: 35px;
   }
   .slide1 .qoute2 {
     position: absolute;
-    left: 24%;
-    top: 61%;
-
+    left: 41vh;
+    top: 54%;
+  
     font-family: inkfree;
-    font-size: 25px;
+    font-size: 35px;
   }
-
+  
   .slide1 hr {
     position: absolute;
     top: 70%;
-    left: 10%;
-    width: 320px;
+    left: 18vh;
+    width: 480px;
     height: 2px;
     border-radius: 30px;
     background-color: #707070;
   }
   .slide1 .vertical1 {
     position: absolute;
-    height: 20px;
-    width: 200px;
-    top: 48%;
-    left: 8%;
+    height: 3vh;
+    width: 40vh;
+    bottom: 23%;
+    right: 15%;
     border: 1px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
   }
   .slide1 .vertical2 {
     position: absolute;
-    height: 20px;
-    width: 200px;
-    top: 52%;
-    right: 8%;
+    height: 3vh;
+    width: 40vh;
+    bottom: 17%;
+    right: 2%;
     border: 1px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
   }
   .slide1 .link {
     position: absolute;
-    left: 25%;
-    bottom: 1px;
+    left: 20vh;
+    bottom: 5vh;
     height: 100px;
     width: 500px;
   }
   .slide1 .link li {
     display: inline;
     margin: 10px;
-    align-items: center;
   }
-
+  
   .slide1 .link img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #707070;
     border-radius: 30px;
   }
@@ -207,164 +209,178 @@
   .slide2 {
     position: relative;
     grid-area: slide2;
-    height: 876px;
-    width: 100%;
+    height: 874px;
+    width: 412px;
     background-color: #f6f6f6;
     border-bottom: 1px solid #84a6f7;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  
+  
   }
-
+  
   .slide2 .Education-Attain {
     position: absolute;
-    height: 35px;
-    width: 250px;
-    top: 3%;
-    left: 20%;
-
+    height: 5vh;
+    width: 40vh;
+    top: 10vh;
+    left: 15vh;
+  
     background-color: #84a6f7;
     border: 1px solid #707070;
-    border-radius: 30px;
-    padding-top: 8px;
+    border-radius: 0px 30px 0px 0;
+    padding-top: 10px;
+  
   }
-
+  
   .Education-Attain h2 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
-    padding-left: 25px;
+    padding-left: 30px;
     position: relative;
-    font-size: 16px;
+    font-size: 2.5vh;
   }
-
+  
   .Education-Attain img {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    right: 25px;
-    top: 5px;
+    width: 5vh;
+    height: 5vh;
+    right: 5vh;
+    top: 0.5vh;
   }
-
+  
   .Aboutme {
     position: absolute;
-
-    left: 10%;
-    top: 10%;
+  
+    right: 5vh;
+    top: 18vh;
+  
   }
-
+  
   .Aboutme h1 {
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 5vh;
     color: #707070;
   }
-
+  
   .Aboutme p {
     font-family: Segoe;
-    font-size: 13px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-size: 3vh;
+    text-align:left;
+    
   }
-
-  .College-Attain {
+  
+  .College-Attain{
     position: absolute;
-    left: 10%;
-    top: 30%;
-    height: 300px;
-    width: 350px;
-
+    top: 22vh;
+    left: 25vh;
+    height: 42vh;
+    width: 80vh;
+  
     background-color: #84a6f7;
     border-radius: 40px;
-    border: 2px solid #fff;
+    border: 5px solid #fff;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
   }
-
-  .College-Attain h1 {
-    font-size: 20px;
-    margin: 5px 0 0 25px;
+  
+  .College-Attain h1{
+    font-size:4vh;
+    margin: 1vh 0 0 5vh;
+  
   }
-  .College-Attain h2 {
-    font-size: 18px;
-    margin: 3px 0 0 40px;
+  .College-Attain h2{
+  
+    font-size: 3vh;
+    margin: 1vh 0 0 5vh;
     font-weight: 500;
+  
   }
-  .College-Attain h3 {
-    font-size: 12px;
-    margin: 4px 0 0 40px;
+  .College-Attain h3{ 
+    font-size: 2vh;
+    margin: 1vh 0 0 8vh;
     font-weight: 500;
   }
   .College-Attain p {
-    font-size: 9px;
-    margin: 3px 0 0 15px;
+    font-size: 2vh;
+    margin: 0.2vh 0 0 5vh;
     font-weight: 100;
   }
-  .College-Attain span {
+  .College-Attain span{
+  
     font-size: 1.2vh;
   }
-
-  .SHS-Attain {
+  
+  .SHS-Attain{
     position: absolute;
     bottom: 5vh;
-    left: 10px;
-    height: 13vh;
-    width: 13vh;
+    right: 25vh;
+    height: 42vh;
+    width: 80vh;
     z-index: 1;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
+  
     background-color: #84a6f7;
     border-radius: 40px;
     border: 5px solid #fff;
   }
-  .SHS-Attain h1 {
-    font-size: 30px;
+  .SHS-Attain h1{
+    font-size:4vh;
     margin: 1vh 0 0 5vh;
+  
   }
-
-  .SHS-Attain h2 {
-    font-size: 10px;
+  
+  .SHS-Attain h2{
+  
+    font-size: 2.5vh;
     margin: 1vh 0 0 5vh;
     font-weight: 500;
+  
   }
-
-  .SHS-Attain h3 {
-    font-size: 10px;
+  
+  .SHS-Attain h3{
+    font-size: 2vh;
     margin: 1vh 0 0 8vh;
     font-weight: 500;
   }
-
-  .SHS-Attain span {
-    font-size: 10px;
+  
+  .SHS-Attain span{
+    font-size: 1.5vh;
+  
   }
-
+  
   .SHS-Attain p {
-    font-size: 10px;
+    font-size: 2vh;
     margin: 0.2vh 0 0 5vh;
     font-weight: 100;
   }
-
+  
+  
   .slide3 {
     grid-area: slide3;
-    height: 876px;
-    width: 100%;
+    height: 874px;
+    width: 412px;
     background-color: #f6f6f6;
     position: relative;
+  
   }
-
+  
   .slide3 .Skill-Exp {
     position: absolute;
-    height: 13vh;
-    width: 13vh;
+    height: 5vh;
+    width: 40vh;
     top: 10vh;
     left: 15vh;
-
+  
     background-color: #84a6f7;
     border: 1px solid #707070;
     border-radius: 0px 30px 0px 0;
     padding-top: 10px;
   }
-
+  
+  
   .Skill-Exp h2 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -373,7 +389,7 @@
     position: relative;
     font-size: 2.5vh;
   }
-
+  
   .Skill-Exp img {
     position: absolute;
     width: 5vh;
@@ -381,76 +397,82 @@
     right: 11vh;
     top: 0.5vh;
   }
-
+  
+  
+  
   .Web-Development {
     position: absolute;
-
-    height: 13vh;
-    width: 13vh;
+  
+    height: 45vh;
+    width: 55vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
   }
-
-  .Web-Designer {
+  
+  .Web-Designer{
     position: absolute;
-
-    height: 13vh;
-    width: 13vh;
+  
+    height: 45vh;
+    width: 55vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
   }
   .System-Development {
     position: absolute;
-
-    height: 13vh;
-    width: 13vh;
+  
+    height: 45vh;
+    width: 55vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
   }
-
-  .carousel {
+  
+  .carousel{
     position: absolute;
     align-items: center;
-    top: 20vh;
-
+    top:20vh;
+  
     height: 350px;
-    width: 10%;
-    perspective: 200px;
+    width: 100%;
+    perspective: 500px;
     transform: translateY(-150px);
+    
   }
-  .carousel h1 {
+  .carousel h1{
     font-size: 5vh;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    text-align:center;
   }
-  .carousel img {
+  .carousel img{
     width: 25vh;
     height: 25vh;
-    margin-left: 28%;
+    margin-left:28% ;
+  
+  
   }
-  .carousel-item {
+  .carousel-item{
     width: 550px;
     position: relative;
   }
-
-  .Cover-Letter {
+  
+  .Cover-Letter{
+  
     position: absolute;
     bottom: 7vh;
     left: 25vh;
-    height: 13vh;
-    width: 13vh;
+    height: 20vh;
+    width: 75%;
     border: 1px solid #707070;
     border-radius: 30px;
     background-color: #84a6f7;
   }
-
+  
   .Cover-Letter p {
     font-family: Open-San-Light;
-    font-size: 10px;
+    font-size: 2.5vh;
     color: #fff;
     text-align: center;
     margin-top: 50px;
