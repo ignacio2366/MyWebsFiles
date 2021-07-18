@@ -28,7 +28,7 @@
     user-select: none;
     min-width: 412px;
     max-height: 1080px;
-    margin: auto;
+
     box-sizing: border-box;
   
   
@@ -45,7 +45,7 @@
   
   .nav {
     height: 1cm;
-    width: 100%;
+    width: 10%;
     background-color: #84a6f7;
     position: fixed;
     z-index: 2;
@@ -54,8 +54,8 @@
     float: left;
     position: relative;
     left: 15%;
-    bottom:0.2vh;
-    font-size: 2.5vh;
+    bottom: 3px;
+    font-size: 25px;
     font-weight: 100;
     color: #f6f6f6;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -67,7 +67,7 @@
     font-size: 12px;
     color: #fff;
     left: 22%;
-    margin-left: 25px;
+    margin-left: 55px;
   
   }
   
@@ -162,7 +162,7 @@
   
   .slide1 hr {
     position: absolute;
-    top: 75%;
+    top: 78%;
     left: 30px;
     width: 320px;
     height: 2px;
@@ -301,12 +301,12 @@
   }
   .College-Attain h3{ 
     font-size: 15px;
-    margin: 0px 0 0 70px;
+    margin: 1px 0 0 70px;
     font-weight: 500;
   }
   .College-Attain p {
     font-size: 12px;
-    margin: 0px 0 0 10px;
+    margin: 1px 0 0 10px;
     font-weight: 100;
   }
   .College-Attain span{
@@ -356,7 +356,7 @@
   
   .SHS-Attain p {
     font-size:11px;
-    margin: 0px 0 0px 10px;
+    margin: 1px 0 0px 10px;
     font-weight: 100;
     white-space: nowrap;
   }
@@ -407,7 +407,7 @@
   .Web-Development {
     position: absolute;
   
-    height: 200px;
+    height: 220px;
     width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
@@ -417,7 +417,7 @@
   .Web-Designer{
     position: absolute;
   
-    height: 200px;
+    height: 220px;
     width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
@@ -426,7 +426,7 @@
   .System-Development {
     position: absolute;
   
-    height: 200px;
+    height: 220px;
     width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
@@ -437,23 +437,23 @@
     position: absolute;
     align-items: center;
     top: 10%;
-    left: 50%;
+    left: 10%;
 
     height: 350px;
-    width: 40%;
-    perspective:100px;
+    width: 30%;
+    perspective:700px;
     transform: translateY(-150px);
     
   }
   .carousel h1{
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
   }
   .carousel img{
-    width: 90px;
-    height: 90px;
+    width: 99px;
+    height: 99px;
     margin-left:28% ;
   
   
@@ -467,10 +467,10 @@
   .Cover-Letter{
   
     position: absolute;
-    bottom: 7vh;
-    left: 25vh;
-    height: 20vh;
-    width: 75%;
+    top: 50%;
+    left: 10px;
+    height: 350px;
+    width: 350px;
     border: 1px solid #707070;
     border-radius: 30px;
     background-color: #84a6f7;
