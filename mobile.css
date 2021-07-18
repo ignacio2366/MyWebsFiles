@@ -53,7 +53,7 @@
   .nav h1 {
     float: left;
     position: relative;
-    left: 1vh;
+    left: 15%;
     bottom:0.2vh;
     font-size: 2.5vh;
     font-weight: 100;
@@ -66,6 +66,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: #fff;
+    left: 22%;
     margin-left: 15px;
   
   }
@@ -79,6 +80,7 @@
     float: right;
     padding-top: 0.5vh;
     margin-left:1vh;
+    visibility: hidden;
   }
   .nav li a {
     font-family: Open-San-Light;
@@ -94,7 +96,7 @@
   .slide1 {
     grid-area: slide1;
     height: 874px;
-    width: 412px;
+    width: 100%;
     position: relative;
     background-color: #f6f6f6;
     align-items: center;
@@ -123,8 +125,8 @@
   
   .person1 {
     position: absolute;
-    right: 5%;
-    top: 50%;
+    left:15%;
+    top: 20%;
     height: 300px;
     width: 300px;
   
@@ -137,17 +139,17 @@
   }
   
   .slide1 .person1 img {
-    height: 55vh;
-    width: 55vh;
+    height: 350px;
+    width: 350px;
   }
   
   .slide1 .qoute1 {
     position: absolute;
-    left: 25vh;
-    top: 50%;
+    left: 10%;
+    top: 65%;
   
     font-family: inkfree;
-    font-size: 35px;
+    font-size: 30px;
   }
   .slide1 .qoute2 {
     position: absolute;
@@ -169,20 +171,20 @@
   }
   .slide1 .vertical1 {
     position: absolute;
-    height: 3vh;
-    width: 40vh;
-    bottom: 23%;
-    right: 15%;
+    height: 20px;
+    width: 200px;
+    top: 58%;
+    left: 5%;
     border: 1px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
   }
   .slide1 .vertical2 {
     position: absolute;
-    height: 3vh;
-    width: 40vh;
-    bottom: 17%;
-    right: 2%;
+    height: 20px;
+    width: 200px;
+    top: 62%;
+    right: 5%;
     border: 1px solid #707070;
     background-color: #bfd1fd;
     border-radius: 20px;
