@@ -21,7 +21,7 @@
 
   .container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: grid;
     user-select: none;
     max-height: 1080px;
@@ -30,8 +30,9 @@
     position: relative;
 
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.1 1fr 1fr 1fr;
     grid-template-areas:
+      "nav"
       "slide1"
       "slide2"
       "slide3";
@@ -39,16 +40,17 @@
   /* Navigation Area */
 
   .nav {
-    height: 0.8cm;
+    grid-area: nav;
+    height: 1cm;
     width: 100%;
     background-color: #84a6f7;
-    position: fixed;
+    position: absolute;
     z-index: 2;
   }
   .nav h1 {
     float: left;
     position: absolute;
-    left: 18%;
+    left: 40%;
     bottom: 3px;
     font-size: 15px;
     font-weight: 100;
@@ -62,9 +64,8 @@
     font-size: 10px;
     margin-left: 50px;
     color: #fff;
-    left: 19%;
+    left: 42%;
     bottom: 8px;
-
   }
 
   .nav li {
@@ -91,7 +92,7 @@
 
   .slide1 {
     grid-area: slide1;
-    height: 100vh;
+    height: 876px;
     width: 100%;
     position: relative;
     background-color: #f6f6f6;
@@ -196,7 +197,6 @@
     align-items: center;
   }
 
-
   .slide1 .link img {
     height: 40px;
     width: 40px;
@@ -207,7 +207,7 @@
   .slide2 {
     position: relative;
     grid-area: slide2;
-    height: 100vh;
+    height: 876px;
     width: 100%;
     background-color: #f6f6f6;
     border-bottom: 1px solid #84a6f7;
@@ -215,32 +215,32 @@
 
   .slide2 .Education-Attain {
     position: absolute;
-    height: 5vh;
-    width: 40vh;
-    top: 10vh;
-    left: 15vh;
+    height: 35px;
+    width: 250px;
+    top: 3%;
+    left: 20%;
 
     background-color: #84a6f7;
     border: 1px solid #707070;
-    border-radius: 0px 30px 0px 0;
-    padding-top: 10px;
+    border-radius: 30px;
+    padding-top: 8px;
   }
 
   .Education-Attain h2 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 25px;
     position: relative;
-    font-size: 2.5vh;
+    font-size: 16px;
   }
 
   .Education-Attain img {
     position: absolute;
-    width: 5vh;
-    height: 5vh;
-    right: 5vh;
-    top: 0.5vh;
+    width: 30px;
+    height: 30px;
+    right: 25px;
+    top: 5px;
   }
 
   .Aboutme {
@@ -267,8 +267,8 @@
     position: absolute;
     top: 22vh;
     left: 25vh;
-    height: 42vh;
-    width: 80vh;
+    height: 13vh;
+    width: 13vh;
 
     background-color: #84a6f7;
     border-radius: 40px;
@@ -304,8 +304,8 @@
     position: absolute;
     bottom: 5vh;
     right: 25vh;
-    height: 42vh;
-    width: 80vh;
+    height: 13vh;
+    width: 13vh;
     z-index: 1;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -351,8 +351,8 @@
 
   .slide3 .Skill-Exp {
     position: absolute;
-    height: 5vh;
-    width: 40vh;
+    height: 13vh;
+    width: 13vh;
     top: 10vh;
     left: 15vh;
 
@@ -382,8 +382,8 @@
   .Web-Development {
     position: absolute;
 
-    height: 45vh;
-    width: 55vh;
+    height: 13vh;
+    width: 13vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
@@ -392,8 +392,8 @@
   .Web-Designer {
     position: absolute;
 
-    height: 45vh;
-    width: 55vh;
+    height: 13vh;
+    width: 13vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
@@ -401,8 +401,8 @@
   .System-Development {
     position: absolute;
 
-    height: 45vh;
-    width: 55vh;
+    height: 13vh;
+    width: 13vh;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 5px solid #fff;
@@ -414,8 +414,8 @@
     top: 20vh;
 
     height: 350px;
-    width: 100%;
-    perspective: 500px;
+    width: 10%;
+    perspective: 200px;
     transform: translateY(-150px);
   }
   .carousel h1 {
@@ -438,8 +438,8 @@
     position: absolute;
     bottom: 7vh;
     left: 25vh;
-    height: 20vh;
-    width: 75%;
+    height: 13vh;
+    width: 13vh;
     border: 1px solid #707070;
     border-radius: 30px;
     background-color: #84a6f7;
