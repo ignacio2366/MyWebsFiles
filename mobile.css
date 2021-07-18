@@ -145,26 +145,26 @@
   
   .slide1 .qoute1 {
     position: absolute;
-    left: 10%;
-    top: 65%;
+    left: 15%;
+    top: 68%;
   
     font-family: inkfree;
-    font-size: 30px;
+    font-size: 25px;
   }
   .slide1 .qoute2 {
     position: absolute;
-    left: 41vh;
-    top: 54%;
+    left: 19%;
+    top: 71%;
   
     font-family: inkfree;
-    font-size: 35px;
+    font-size: 25px;
   }
   
   .slide1 hr {
     position: absolute;
-    top: 70%;
-    left: 18vh;
-    width: 480px;
+    top: 75%;
+    left: 30px;
+    width: 320px;
     height: 2px;
     border-radius: 30px;
     background-color: #707070;
@@ -191,8 +191,8 @@
   }
   .slide1 .link {
     position: absolute;
-    left: 20vh;
-    bottom: 5vh;
+    left: 20%;
+    bottom: 25px;
     height: 100px;
     width: 500px;
   }
@@ -202,8 +202,8 @@
   }
   
   .slide1 .link img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border: 1px solid #707070;
     border-radius: 30px;
   }
