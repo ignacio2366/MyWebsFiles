@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     align-items: center;
+    border-bottom: 1;
   
   }
   
@@ -27,7 +28,7 @@
     user-select: none;
     min-width: 412px;
     max-height: 1080px;
-
+    margin: 0 auto;
     box-sizing: border-box;
   
   
@@ -51,7 +52,7 @@
   .nav h1 {
     float: left;
     position: absolute;
-    left: 15%;
+    left: 30%;
     bottom: 3px;
     font-size: 25px;
     font-weight: 100;
@@ -64,7 +65,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
     color: #fff;
-    left: 22%;
+    left: 39%;
     margin-left: 55px;
   
   }
@@ -193,7 +194,7 @@
     left: 20%;
     bottom: 0px;
     height: 100px;
-    width: 300px;
+    width: 200px;
   }
   .slide1 .link li {
     display: inline;
