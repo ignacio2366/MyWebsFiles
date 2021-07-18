@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     align-items: center;
-  
+    border-bottom: 1px solid red;;
   
   }
   
@@ -45,14 +45,13 @@
   
   .nav {
     height: 1cm;
-    width: 10%;
+    width: 100%;
     background-color: #84a6f7;
     position: fixed;
-    z-index: 2;
   }
   .nav h1 {
     float: left;
-    position: relative;
+    position: absolute;
     left: 15%;
     bottom: 3px;
     font-size: 25px;
@@ -83,6 +82,7 @@
     visibility: hidden;
   }
   .nav li a {
+    
     font-family: Open-San-Light;
     font-size: 20px;
     text-align: center;
@@ -100,7 +100,6 @@
     position: relative;
     background-color: #f6f6f6;
     align-items: center;
-    border-bottom: 1px solid #84a6f7;
   
   }
   
@@ -141,6 +140,7 @@
   .slide1 .person1 img {
     height: 350px;
     width: 350px;
+    
   }
   
   .slide1 .qoute1 {
@@ -194,7 +194,7 @@
     left: 20%;
     bottom: 25px;
     height: 100px;
-    width: 500px;
+    width: 300px;
   }
   .slide1 .link li {
     display: inline;
@@ -206,6 +206,8 @@
     width: 40px;
     border: 1px solid #707070;
     border-radius: 30px;
+    
+    
   }
   /* Slideer 2*/
   .slide2 {
@@ -359,15 +361,17 @@
     margin: 1px 0 0px 10px;
     font-weight: 100;
     white-space: nowrap;
+    
   }
   
   
   .slide3 {
     grid-area: slide3;
     height: 874px;
-    width: 412px;
+    width: 100%;
     background-color: #f6f6f6;
     position: relative;
+    
   
   }
   
@@ -390,8 +394,9 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     padding-left: 50px;
-    position: relative;
     font-size: 18px;
+    position: absolute;
+
   }
   
   .Skill-Exp img {
@@ -455,7 +460,8 @@
     width: 99px;
     height: 99px;
     margin-left:28% ;
-  
+    position: absolute;
+
   
   }
   .carousel-item{

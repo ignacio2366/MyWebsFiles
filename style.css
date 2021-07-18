@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   align-items: center;
+  border-bottom: 1px solid red;;
 
 
 }
@@ -24,7 +25,6 @@
   width: 100%;
   height: 100vh;
   display: grid;
-  user-select: none;
   max-height: 1080px;
   margin: 0 auto;
 
@@ -189,7 +189,7 @@
   left: 20vh;
   bottom: 5vh;
   height: 100px;
-  width: 500px;
+  width: 300px;
 }
 .slide1 .link li {
   display: inline;
