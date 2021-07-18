@@ -67,7 +67,7 @@
     font-size: 12px;
     color: #fff;
     left: 22%;
-    margin-left: 15px;
+    margin-left: 25px;
   
   }
   
@@ -212,7 +212,7 @@
     position: relative;
     grid-area: slide2;
     height: 874px;
-    width: 412px;
+    width: 100%;
     background-color: #f6f6f6;
     border-bottom: 1px solid #84a6f7;
   
@@ -221,14 +221,14 @@
   
   .slide2 .Education-Attain {
     position: absolute;
-    height: 5vh;
-    width: 40vh;
-    top: 10vh;
-    left: 15vh;
+    height: 35px;
+    width: 300px;
+    top: 5%;
+    left: 10%;
   
     background-color: #84a6f7;
     border: 1px solid #707070;
-    border-radius: 0px 30px 0px 0;
+    border-radius: 30px;
     padding-top: 10px;
   
   }
@@ -239,124 +239,126 @@
     text-align: left;
     padding-left: 30px;
     position: relative;
-    font-size: 2.5vh;
+    font-size: 18px;
   }
   
   .Education-Attain img {
     position: absolute;
-    width: 5vh;
-    height: 5vh;
-    right: 5vh;
+    width: 35px;
+    height: 35px;
+    right: 36px;
     top: 0.5vh;
   }
   
   .Aboutme {
     position: absolute;
   
-    right: 5vh;
-    top: 18vh;
+    left: 35px;
+    top: 12%;
   
   }
   
   .Aboutme h1 {
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 5vh;
+    font-size: 35px;
     color: #707070;
   }
   
   .Aboutme p {
     font-family: Segoe;
-    font-size: 3vh;
-    text-align:left;
-    
+    font-size: 12.5px;
+    text-align:justify;
+    white-space: nowrap;
   }
   
   .College-Attain{
     position: absolute;
-    top: 22vh;
-    left: 25vh;
-    height: 42vh;
-    width: 80vh;
+    top: 32%;
+    left: 30px;
+    height: 300px;
+    width: 350px;
   
     background-color: #84a6f7;
     border-radius: 40px;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     
   }
   
   .College-Attain h1{
-    font-size:4vh;
-    margin: 1vh 0 0 5vh;
+    font-size: 20px;
+    margin: 5px 0 0 25px;
   
   }
   .College-Attain h2{
   
-    font-size: 3vh;
-    margin: 1vh 0 0 5vh;
+    font-size:17px;
+    margin: 5px 0 0px 35px;
     font-weight: 500;
   
   }
   .College-Attain h3{ 
-    font-size: 2vh;
-    margin: 1vh 0 0 8vh;
+    font-size: 15px;
+    margin: 0px 0 0 70px;
     font-weight: 500;
   }
   .College-Attain p {
-    font-size: 2vh;
-    margin: 0.2vh 0 0 5vh;
+    font-size: 12px;
+    margin: 0px 0 0 10px;
     font-weight: 100;
   }
   .College-Attain span{
   
-    font-size: 1.2vh;
+    font-size: 10px;
   }
   
   .SHS-Attain{
     position: absolute;
-    bottom: 5vh;
-    right: 25vh;
-    height: 42vh;
-    width: 80vh;
+    bottom:75px;
+    left: 30px;
+    height: 250px;
+    width: 350px;
+
     z-index: 1;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   
     background-color: #84a6f7;
     border-radius: 40px;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
   }
   .SHS-Attain h1{
-    font-size:4vh;
-    margin: 1vh 0 0 5vh;
+    font-size: 20px;
+    margin: 5px 0 0 25px;
   
   }
   
   .SHS-Attain h2{
   
-    font-size: 2.5vh;
-    margin: 1vh 0 0 5vh;
+    font-size:13px;
+    margin: 5px 0 0px 35px;
     font-weight: 500;
   
   }
   
   .SHS-Attain h3{
-    font-size: 2vh;
-    margin: 1vh 0 0 8vh;
+    font-size:10px;
+    margin: 5px 0 0px 35px;
     font-weight: 500;
   }
   
   .SHS-Attain span{
-    font-size: 1.5vh;
+    font-size: 8px;
   
   }
   
   .SHS-Attain p {
-    font-size: 2vh;
-    margin: 0.2vh 0 0 5vh;
+    font-size:11px;
+    margin: 0px 0 0px 10px;
     font-weight: 100;
+    white-space: nowrap;
   }
   
   
@@ -371,14 +373,14 @@
   
   .slide3 .Skill-Exp {
     position: absolute;
-    height: 5vh;
-    width: 40vh;
-    top: 10vh;
-    left: 15vh;
+    height: 35px;
+    width: 300px;
+    top: 3%;
+    left: 10%;
   
     background-color: #84a6f7;
     border: 1px solid #707070;
-    border-radius: 0px 30px 0px 0;
+    border-radius: 30px;
     padding-top: 10px;
   }
   
@@ -387,17 +389,17 @@
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 50px;
     position: relative;
-    font-size: 2.5vh;
+    font-size: 18px;
   }
   
   .Skill-Exp img {
     position: absolute;
-    width: 5vh;
-    height: 5vh;
-    right: 11vh;
-    top: 0.5vh;
+    width: 40px;
+    height: 40px;
+    right: 50px;
+    top: 5px;
   }
   
   
@@ -405,58 +407,60 @@
   .Web-Development {
     position: absolute;
   
-    height: 45vh;
-    width: 55vh;
+    height: 200px;
+    width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
   }
   
   .Web-Designer{
     position: absolute;
   
-    height: 45vh;
-    width: 55vh;
+    height: 200px;
+    width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
   }
   .System-Development {
     position: absolute;
   
-    height: 45vh;
-    width: 55vh;
+    height: 200px;
+    width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
-    border: 5px solid #fff;
+    border: 3px solid #fff;
   }
   
   .carousel{
     position: absolute;
     align-items: center;
-    top:20vh;
-  
+    top: 10%;
+    left: 50%;
+
     height: 350px;
-    width: 100%;
-    perspective: 500px;
+    width: 40%;
+    perspective:100px;
     transform: translateY(-150px);
     
   }
   .carousel h1{
-    font-size: 5vh;
+    font-size: 25px;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
   }
   .carousel img{
-    width: 25vh;
-    height: 25vh;
+    width: 90px;
+    height: 90px;
     margin-left:28% ;
   
   
   }
   .carousel-item{
-    width: 550px;
+    margin-left: 100px;
+    width: 150px;
     position: relative;
   }
   
