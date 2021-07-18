@@ -306,7 +306,7 @@
   .SHS-Attain {
     position: absolute;
     bottom: 5vh;
-    right: 25vh;
+    left: 10px;
     height: 13vh;
     width: 13vh;
     z-index: 1;
@@ -318,28 +318,28 @@
     border: 5px solid #fff;
   }
   .SHS-Attain h1 {
-    font-size: 4vh;
+    font-size: 30px;
     margin: 1vh 0 0 5vh;
   }
 
   .SHS-Attain h2 {
-    font-size: 2.5vh;
+    font-size: 10px;
     margin: 1vh 0 0 5vh;
     font-weight: 500;
   }
 
   .SHS-Attain h3 {
-    font-size: 2vh;
+    font-size: 10px;
     margin: 1vh 0 0 8vh;
     font-weight: 500;
   }
 
   .SHS-Attain span {
-    font-size: 1.5vh;
+    font-size: 10px;
   }
 
   .SHS-Attain p {
-    font-size: 2vh;
+    font-size: 10px;
     margin: 0.2vh 0 0 5vh;
     font-weight: 100;
   }
@@ -450,7 +450,7 @@
 
   .Cover-Letter p {
     font-family: Open-San-Light;
-    font-size: 2.5vh;
+    font-size: 10px;
     color: #fff;
     text-align: center;
     margin-top: 50px;
