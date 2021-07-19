@@ -3,10 +3,8 @@
     margin: 0;
     padding: 0;
     align-items: center;
-    border-bottom: 1;
-  
   }
-  
+
   @font-face {
     font-family: inkfree;
     src: url(fonts/ink-free-normal.ttf);
@@ -15,12 +13,12 @@
     font-family: Segoe;
     src: url(fonts/segoesc.ttf);
   }
-  
+
   @font-face {
     font-family: Open-San-Light;
-    src: url(./fonts/OpenSans-Light.ttf)
+    src: url(./fonts/OpenSans-Light.ttf);
   }
-  
+
   .container {
     width: 100%;
     height: 100%;
@@ -29,25 +27,26 @@
     min-width: 412px;
     max-height: 1080px;
     box-sizing: border-box;
-    
-  
-  
+    margin: auto;
+
     position: relative;
-  
+
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
+      "nav"
       "slide1"
       "slide2"
       "slide3";
   }
   /* Navigation Area */
-  
+
   .nav {
+    grid-area: nav;
     height: 1cm;
     width: 100%;
     background-color: #84a6f7;
-    position: fixed;
+
   }
   .nav h1 {
     float: left;
@@ -59,7 +58,7 @@
     color: #f6f6f6;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  .nav span{
+  .nav span {
     position: absolute;
     font-weight: 100;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -67,9 +66,8 @@
     color: #fff;
     left: 39%;
     margin-left: 55px;
-  
   }
-  
+
   .nav li {
     position: relative;
     top: 0vh;
@@ -78,21 +76,21 @@
     list-style: none;
     float: right;
     padding-top: 0.5vh;
-    margin-left:1vh;
+    margin-left: 1vh;
     visibility: hidden;
   }
   .nav li a {
-    
     font-family: Open-San-Light;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: #fff;
     letter-spacing: 1px;
+
   }
-  
+
   /*SLIDER ! */
-  
+
   .slide1 {
     grid-area: slide1;
     height: 874px;
@@ -100,14 +98,13 @@
     position: relative;
     background-color: #f6f6f6;
     align-items: center;
-  
   }
-  
+
   .greeting h1 {
     position: absolute;
     top: 70px;
     left: 40px;
-  
+
     font-size: 35px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
@@ -116,19 +113,19 @@
     position: absolute;
     top: 110px;
     left: 110px;
-  
+
     font-size: 21px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: #707070;
   }
-  
+
   .person1 {
     position: absolute;
-    left:15%;
+    left: 15%;
     top: 20%;
     height: 300px;
     width: 300px;
-  
+
     background-color: #bfd1fd;
     border-radius: 30px;
     border: 2px solid #707070;
@@ -136,18 +133,17 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .slide1 .person1 img {
     height: 350px;
     width: 350px;
-    
   }
-  
+
   .slide1 .qoute1 {
     position: absolute;
     left: 15%;
     top: 68%;
-  
+
     font-family: inkfree;
     font-size: 25px;
   }
@@ -155,11 +151,11 @@
     position: absolute;
     left: 19%;
     top: 71%;
-  
+
     font-family: inkfree;
     font-size: 25px;
   }
-  
+
   .slide1 hr {
     position: absolute;
     top: 78%;
@@ -200,14 +196,12 @@
     display: inline;
     margin: 10px;
   }
-  
+
   .slide1 .link img {
     height: 40px;
     width: 40px;
     border: 1px solid #707070;
     border-radius: 30px;
-    
-    
   }
   /* Slideer 2*/
   .slide2 {
@@ -217,24 +211,21 @@
     width: 100%;
     background-color: #f6f6f6;
     border-bottom: 1px solid #84a6f7;
-  
-  
   }
-  
+
   .slide2 .Education-Attain {
     position: absolute;
     height: 35px;
     width: 300px;
     top: 5%;
     left: 10%;
-  
+
     background-color: #84a6f7;
     border: 1px solid #707070;
     border-radius: 30px;
     padding-top: 10px;
-  
   }
-  
+
   .Education-Attain h2 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -243,7 +234,7 @@
     position: relative;
     font-size: 18px;
   }
-  
+
   .Education-Attain img {
     position: absolute;
     width: 35px;
@@ -251,57 +242,52 @@
     right: 36px;
     top: 0.5vh;
   }
-  
+
   .Aboutme {
     position: absolute;
-  
+
     left: 35px;
     top: 12%;
-  
   }
-  
+
   .Aboutme h1 {
     text-align: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
     color: #707070;
   }
-  
+
   .Aboutme p {
     font-family: Segoe;
     font-size: 12.5px;
-    text-align:justify;
+    text-align: justify;
     white-space: nowrap;
   }
-  
-  .College-Attain{
+
+  .College-Attain {
     position: absolute;
     top: 32%;
     left: 30px;
     height: 300px;
     width: 350px;
-  
+
     background-color: #84a6f7;
     border-radius: 40px;
     border: 2px solid #fff;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    
   }
-  
-  .College-Attain h1{
+
+  .College-Attain h1 {
     font-size: 20px;
     margin: 5px 0 0 25px;
-  
   }
-  .College-Attain h2{
-  
-    font-size:17px;
+  .College-Attain h2 {
+    font-size: 17px;
     margin: 5px 0 0px 35px;
     font-weight: 500;
-  
   }
-  .College-Attain h3{ 
+  .College-Attain h3 {
     font-size: 15px;
     margin: 1px 0 0 70px;
     font-weight: 500;
@@ -311,14 +297,13 @@
     margin: 1px 0 0 10px;
     font-weight: 100;
   }
-  .College-Attain span{
-  
+  .College-Attain span {
     font-size: 10px;
   }
-  
-  .SHS-Attain{
+
+  .SHS-Attain {
     position: absolute;
-    bottom:75px;
+    bottom: 75px;
     left: 30px;
     height: 250px;
     width: 350px;
@@ -326,68 +311,59 @@
     z-index: 1;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  
+
     background-color: #84a6f7;
     border-radius: 40px;
     border: 2px solid #fff;
   }
-  .SHS-Attain h1{
+  .SHS-Attain h1 {
     font-size: 20px;
     margin: 5px 0 0 25px;
-  
   }
-  
-  .SHS-Attain h2{
-  
-    font-size:13px;
-    margin: 5px 0 0px 35px;
-    font-weight: 500;
-  
-  }
-  
-  .SHS-Attain h3{
-    font-size:10px;
+
+  .SHS-Attain h2 {
+    font-size: 13px;
     margin: 5px 0 0px 35px;
     font-weight: 500;
   }
-  
-  .SHS-Attain span{
+
+  .SHS-Attain h3 {
+    font-size: 10px;
+    margin: 5px 0 0px 35px;
+    font-weight: 500;
+  }
+
+  .SHS-Attain span {
     font-size: 8px;
-  
   }
-  
+
   .SHS-Attain p {
-    font-size:15px;
+    font-size: 15px;
     margin: 1px 0 0px 10px;
     font-weight: 100;
-
   }
-  
-  
+
   .slide3 {
     grid-area: slide3;
     height: 874px;
     width: 100%;
     background-color: #f6f6f6;
     position: relative;
-    
-  
   }
-  
+
   .slide3 .Skill-Exp {
     position: absolute;
     height: 35px;
     width: 300px;
     top: 3%;
     left: 10%;
-  
+
     background-color: #84a6f7;
     border: 1px solid #707070;
     border-radius: 30px;
     padding-top: 10px;
   }
-  
-  
+
   .Skill-Exp h2 {
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -395,9 +371,8 @@
     padding-left: 50px;
     font-size: 18px;
     position: absolute;
-
   }
-  
+
   .Skill-Exp img {
     position: absolute;
     width: 40px;
@@ -405,22 +380,20 @@
     right: 50px;
     top: 5px;
   }
-  
-  
-  
+
   .Web-Development {
     position: absolute;
-  
+
     height: 220px;
     width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 3px solid #fff;
   }
-  
-  .Web-Designer{
+
+  .Web-Designer {
     position: absolute;
-  
+
     height: 220px;
     width: 200px;
     background-color: #84a6f7;
@@ -429,48 +402,44 @@
   }
   .System-Development {
     position: absolute;
-  
+
     height: 220px;
     width: 200px;
     background-color: #84a6f7;
     border-radius: 30px;
     border: 3px solid #fff;
   }
-  
-  .carousel{
+
+  .carousel {
     position: absolute;
     align-items: center;
     top: 10%;
-    left: 10%;
+    left: 25%;
 
     height: 350px;
-    width: 30%;
-    perspective:700px;
+    width: 0%;
+    perspective: 580px;
     transform: translateY(-150px);
-    
   }
-  .carousel h1{
+  .carousel h1 {
     font-size: 30px;
     color: #fff;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+    text-align: center;
   }
-  .carousel img{
+  .carousel img {
     width: 99px;
     height: 99px;
-    margin-left:28% ;
+    margin-left: 28%;
     position: absolute;
-
-  
   }
-  .carousel-item{
+  .carousel-item {
     margin-left: 100px;
-    width: 150px;
+    width: 20px;
     position: relative;
   }
-  
-  .Cover-Letter{
-  
+
+  .Cover-Letter {
     position: absolute;
     top: 50%;
     left: 30px;
@@ -480,7 +449,7 @@
     border-radius: 30px;
     background-color: #84a6f7;
   }
-  
+
   .Cover-Letter p {
     font-family: Open-San-Light;
     font-size: 2.5vh;
