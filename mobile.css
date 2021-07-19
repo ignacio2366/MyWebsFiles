@@ -28,8 +28,8 @@
     user-select: none;
     min-width: 412px;
     max-height: 1080px;
-    margin: 0 auto;
     box-sizing: border-box;
+    
   
   
     position: relative;
@@ -357,11 +357,10 @@
   }
   
   .SHS-Attain p {
-    font-size:11px;
+    font-size:15px;
     margin: 1px 0 0px 10px;
     font-weight: 100;
-    white-space: nowrap;
-    
+
   }
   
   
@@ -474,7 +473,7 @@
   
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 30px;
     height: 350px;
     width: 350px;
     border: 1px solid #707070;
