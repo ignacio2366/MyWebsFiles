@@ -414,11 +414,11 @@
     position: absolute;
     align-items: center;
     top: 10%;
-    left: 25%;
+    left: 22%;
 
     height: 350px;
     width: 0%;
-    perspective: 580px;
+    perspective: 780px;
     transform: translateY(-150px);
   }
   .carousel h1 {
@@ -435,7 +435,7 @@
   }
   .carousel-item {
     margin-left: 100px;
-    width: 20px;
+    width: 120px;
     position: relative;
   }
 
